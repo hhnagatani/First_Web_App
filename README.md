@@ -18,13 +18,13 @@
     - On your computer, create a folder with your HTML and CSS files.
     - Initialize git and push to GitHub:
     - 
-```
+    ```
 git init
 git remote add origin https://github.com/[your-username]/my-static-site.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
-```
+    ```
 
 - Step 4: Enable GitHub Pages<br>
 
