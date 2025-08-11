@@ -38,12 +38,12 @@
  
       To push changes to Git, follow these steps (note: Ai Summary to Google query: "how to push changes to git"):
 ```
-Stage your changes: Use git add . to stage all modified files.
-Commit your changes: Run git commit -m "Your commit message" to save your changes with a message.
-Check your branch: Ensure you are on the correct branch with git branch.
-Pull latest changes: Use git pull origin <branch-name> to update your local branch with any remote changes.
-Push your changes: Execute git push origin <branch-name> to upload your commits to the remote repository.
-Verify the push: Check the remote repository to confirm your changes have been successfully pushed.
+        Stage your changes: Use git add . to stage all modified files.
+        Commit your changes: Run git commit -m "Your commit message" to save your changes with a message.
+        Check your branch: Ensure you are on the correct branch with git branch.
+        Pull latest changes: Use git pull origin <branch-name> to update your local branch with any remote changes.
+        Push your changes: Execute git push origin <branch-name> to upload your commits to the remote repository.
+        Verify the push: Check the remote repository to confirm your changes have been successfully pushed.
  ```
 
 - To view a webpage on GitHub, follow these steps (note: AI Summary to Google query: "how to view a webpage on github"):
