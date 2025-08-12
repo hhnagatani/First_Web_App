@@ -6,7 +6,7 @@ const tableData = [
     ["Morgan",  "Zoe",    "fixer",      "333-33-xxxx"],
     ["Cause",   "root",   "angel",      "444-44-xxxx"],
     ["Carter",  "Joss",   "detective",  "555-55-xxxx"],
-    ["Shah",    "Sameen", "assassin",   "666-66-xxxx"]
+    ["Shaw",    "Sameen", "assassin",   "666-66-xxxx"]
 ];
 
 function loadTable(data, index) {
