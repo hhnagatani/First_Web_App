@@ -45,7 +45,7 @@
     - Push your changes: Execute git push origin <branch-name> to upload your commits to the remote repository.
     - Verify the push: Check the remote repository to confirm your changes have been successfully pushed.
 
-- To view a webpage on GitHub, follow these steps (note: AI Summary to Google query: "how to view a webpage on github"):
+- Alternative explanation: (note: AI Summary to Google query: "how to view a webpage on github"):
 
     - Navigate to the GitHub repository containing the webpage.
     - Locate the branch that contains the HTML files (usually main or gh-pages).
