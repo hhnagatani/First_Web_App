@@ -1,6 +1,6 @@
 
 const tableData = [
-    ["Finch",   "Harold", "programmer", "000-00-xxxx"],
+    ["Finch",   "Harold", "billionair", "000-00-xxxx"],
     ["Reeve",   "John",   "assassin",   "111-11-xxxx"],
     ["Fusco",   "Lionel", "detective",  "222-22-xxxx"],
     ["Morgan",  "Zoe",    "fixer",      "333-33-xxxx"],
