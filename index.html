@@ -24,36 +24,40 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>last name</th>
-                    <th>first name</th>
-                    <th>occupation</th>
-                    <th>social security number</th>
+                    <th>Last name</th>
+                    <th>First name</th>
+                    <th>Occupation</th>
+                    <th>SSN</th>
                 </tr>
             </thead>
             <tbody id="tbody"></tbody>
             </table>
-        </div>>
+        </div>
     </body>
 
     <script>
+        /* git instructions (simplest case):
+                git add .
+                git commit -m "Update table entry"
+                git push -u origin master
+        */
         // insert a datetimestamp; run after body loaded
         const date = new Date(Date.now());
-        strYear     = date.getFullYear();
-        strMonth    = (date.getMonth() + 1).toString().padStart(2,'0');
-        strDate     = (date.getDate()).toString().padStart(2,'0');
-        strHours    = (date.getHours()).toString().padStart(2,'0');
-        strMinutes  = (date.getMinutes()).toString().padStart(2,'0');
-        strSeconds  = (date.getSeconds()).toString().padStart(2,'0');
-        strDateTime = strYear + "/"  + strMonth + "/" + strDate + " " + 
-                        strHours + ":" + strMinutes + "." + strSeconds;
+        yr  = date.getFullYear();
+        mon = (date.getMonth() + 1).toString().padStart(2,'0');
+        day = date.getDate().toString().padStart(2,'0');
+        hr  = date.getHours().toString().padStart(2,'0');
+        min = date.getMinutes().toString().padStart(2,'0');
+        sec = date.getSeconds().toString().padStart(2,'0');
+        strDateTime = yr + "/"  + mon + "/" + day + " " + hr + ":" + min + "." + sec;
         
         const ts = document.getElementById('timestamp');
         if (ts) {
             ts.textContent = strDateTime;
         }
 
+        // load table
         const data = tableData;
-
         data.forEach(loadTable);
 
     </script>

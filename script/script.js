@@ -1,12 +1,12 @@
 
 const tableData = [
-    ["Finch",   "Harold", "billionaire", "000-00-xxxx"],
-    ["Reeve",   "John",   "assassin",    "111-11-xxxx"],
-    ["Fusco",   "Lionel", "detective",   "222-22-xxxx"],
-    ["Morgan",  "Zoe",    "fixer",       "333-33-xxxx"],
-    ["Cause",   "Root",   "angel",       "444-44-xxxx"],
-    ["Carter",  "Joss",   "detective",   "555-55-xxxx"],
-    ["Shaw",    "Sameen", "assassin",    "666-66-xxxx"]
+    ["Finch",   "Harold", "billionaire",        "000-00-xxxx"],
+    ["Reeve",   "John",   "ex-CIA assassin",    "111-11-xxxx"],
+    ["Fusco",   "Lionel", "NYPD detective",     "222-22-xxxx"],
+    ["Morgan",  "Zoe",    "fixer",              "333-33-xxxx"],
+    ["Cause",   "Root",   "angel",              "444-44-xxxx"],
+    ["Carter",  "Joss",   "NYPD detective",     "555-55-xxxx"],
+    ["Shaw",    "Sameen", "ex-CIA assassin",    "666-66-xxxx"]
 ];
 
 function loadTable(data, index) {
