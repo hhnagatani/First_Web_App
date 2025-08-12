@@ -4,7 +4,7 @@ const tableData = [
     ["Reeve",   "John",   "assassin",   "111-11-xxxx"],
     ["Fusco",   "Lionel", "detective",  "222-22-xxxx"],
     ["Morgan",  "Zoe",    "fixer",      "333-33-xxxx"],
-    ["Cause",   "root",   "angel",      "444-44-xxxx"],
+    ["Cause",   "Root",   "angel",      "444-44-xxxx"],
     ["Carter",  "Joss",   "detective",  "555-55-xxxx"],
     ["Shaw",    "Sameen", "assassin",   "666-66-xxxx"]
 ];
